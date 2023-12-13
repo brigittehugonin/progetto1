@@ -16,7 +16,7 @@ a {
 }
 
 #menu ul {
-	display: inline;
+
 	text-align: center;
 }
 
@@ -43,14 +43,7 @@ a {
 
 }
 
-#menu {
-	height: 55px;
-	width: 1090px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 35px;
-	*posso toglierlo?*
-}
+
 
 .fotoio img {
 		width: 225px;
@@ -109,7 +102,7 @@ h2 {
 
 h3 {
 	font-weight: 250;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 	line-height: 28 px;
 }
@@ -123,13 +116,11 @@ h3 {
 
 .colonna:not(.testoColonna):not(.hColonna) {
 	background-color: rgb(14, 14, 14);
-	width: 21%;
 	float: left;
-	margin: 1%;
+	margin: 1.5%;
 	text-align: center;
 	height: 300px;
 }
-
 
 
 .internoColonna {
@@ -156,17 +147,18 @@ h3 {
 }
 
 .ctaColonna {
-	font-family: "poppins";
-	color: black;
+	font-family: "syne";
+	color: white;
 	text-align: center;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
-	background-color: white;
-	margin-top: 10px;
-	padding-left: 11px;
-	padding-right: 11px;
+	background-color: black;
+	margin-top: 8px;
 	height: 33px;
 	margin-bottom: 30px;
+	border-color: #fcff51;
+	border-style: solid;
+	border-width: 0.8pt;
 }
 
 .ctaColonna:hover {
