@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #000000;
+	font-family: poppins; 
+	color: #FFFFFF;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 22pt;
+}
+
+
+#premenu1 ul{
+	font-family: syne;
+	font-style: normal;
+	font-weight: 600;
+	margin-top: 20px;
+	padding: 7px;
+}
+
+#premenu2 ul{
+	font-family:'Courier New', Courier, monospace;
+	font-style: italic;
+	font-weight: 200;
+	margin-top: 20px;
+	padding: 7px;
+}
+
+#menu {
+	a {
+	color: white;
+    display: inline;
+}
+    a:hover {
+	color: #fcff51;
+}
+    li {
+	display: inline;
+	margin: 20px;
+	text-align: center;
+}
+}
+
+
+.fotoio img {
+		width: 225px;
+		filter: grayscale(100%) contrast(120%);
+		-webkit-filter: grayscale(100%) contrast(120%);
+		-moz-filter: grayscale(100%) contrast(120%);
+		-ms-filter: grayscale(100%) contrast(120%);
+		-o-filter: grayscale(100%) contrast(120%);
+	}
+
+img {
+	width: 225px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+#Top img:not(.immagineColonna) {
+	padding-bottom: 15px;
+	width: 425px;
+	margin-top: 33px;
+	margin-bottom: 12px;
+}
+
+a:hover {
+	color: #fcff51;
+	font-weight: bolder;
+}
+
+
+P {
+	font-size: 8pt;
+	text-align: center;
+}
+
+
+h1 {
+	font-family: "syne";
+	font-size: 48px;
+	font-weight: bolder;
+	text-align: center;
+	color: #fcff51;
+	margin-top: 30px;
+}
+
+
+
+h2 {
+	font-weight: 350;
+	font-size: 20px;
+	text-align: center;
+	line-height: 32px;
+	padding-bottom: 8px;
+}
+
+h3 {
+	font-weight: 250;
+	font-size: 20px;
+	text-align: center;
+	line-height: 28 px;
+}
+
+
+#contenitoreColonna {
+	display:flex;
+	justify-content: center;
+}
+
+
+.colonna:not(.testoColonna):not(.hColonna) {
+	background-color: rgb(14, 14, 14);
+	float: left;
+	margin: 1.5%;
+	text-align: center;
+	height: 300px;
+}
+
+
+.internoColonna {
+	padding-top: 29px;
+	font-size: 22px;
+	line-height: 26px;
+	font-family: "syre"
+}
+
+.hColonna {
+	font-family: syne;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+
+.hColonna:hover {
+	color: #fcff51;
+}
+.testoColonna {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.ctaColonna {
+	font-family: "syne";
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+	background-color: black;
+	margin-top: 8px;
+	height: 33px;
+	margin-bottom: 30px;
+	border-color: #fcff51;
+	border-style: solid;
+	border-width: 0.4pt;
+}
+
+.ctaColonna:hover {
+	background-color: #fcff51;
+	color: black;
+}
