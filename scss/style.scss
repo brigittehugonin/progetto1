@@ -24,26 +24,34 @@ a {
 	padding: 7px;
 }
 
-#premenu2 ul{
-	font-family:'Courier New', Courier, monospace;
-	font-style: italic;
-	font-weight: 200;
-	margin-top: 20px;
-	padding: 7px;
-}
 
 #menu {
 	a {
 	color: white;
     display: inline;
+	margin-top: 20px;
+	padding: 7px;
 }
-    a:hover {
+    #premenu1 a:hover {
+	font-family: asthetik;
+	font-style: italic;
 	color: #fcff51;
 }
     li {
 	display: inline;
 	margin: 20px;
-	text-align: center;
+	text-align:justify;
+}
+#premenu1 ul {
+	font-family: syne;
+	font-style: normal;
+	font-weight: 600;
+	
+}
+#premenu2 ul {
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
+	font-weight: 200;
 }
 }
 
