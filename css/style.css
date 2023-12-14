@@ -10,6 +10,30 @@ a {
   text-decoration: none;
 }
 
+.outline {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 9999999;
+    mix-blend-mode: difference;
+    transform: translate(-64px, -64px)
+  }
+
+  .cursor{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    transform: translate(-8px, -8px)
+    }
+
 #premenu1 ul {
   font-family: syne;
   font-style: normal;
