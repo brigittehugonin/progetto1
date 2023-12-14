@@ -8,15 +8,27 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
-  font-weight: 600;
-  font-size: 22pt;
 }
 
 #premenu1 ul {
   font-family: syne;
   font-style: normal;
   font-weight: 600;
+  color: white;
+  font-weight: 600;
+  font-size: 22pt;
+  margin-top: 20px;
+  padding: 7px;
+}
+
+#premenu2 ul {
+  font-family: asthetik;
+  font-style: italic;
+  font-weight: 600;
+ 
+  color: white;
+  font-weight: 600;
+  font-size: 20pt;
   margin-top: 20px;
   padding: 7px;
 }
@@ -30,6 +42,8 @@ a {
 #menu #premenu1 a:hover {
   font-family: asthetik;
   font-style: italic;
+  font-weight: 600;
+  font-size: 20pt;
   color: #fcff51;
 }
 #menu li {
@@ -37,15 +51,14 @@ a {
   margin: 20px;
   text-align: justify;
 }
-#menu #premenu1 ul {
+
+#menu #premenu2 a:hover {
   font-family: syne;
   font-style: normal;
   font-weight: 600;
-}
-#menu #premenu2 ul {
-  font-family: "Courier New", Courier, monospace;
-  font-style: italic;
-  font-weight: 200;
+  font-size: 22pt;
+  font-weight: 600;
+  color: #fcff51;
 }
 
 .fotoio img {
